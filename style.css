@@ -1,0 +1,45 @@
+body{
+	background: linear-gradient(to right, #EEE8AA, #FAFAD2, #EEE8AA);
+}
+.wrap{
+	width: 50%;
+	margin: auto;
+	color: darkblue;
+	border-radius: 20px;
+	font-family: comic sans ms;
+	background-color: #F0E68C;
+}
+.container{
+	padding: 50px;
+	margin: 5%;
+}
+h2{
+	text-align: center;
+}
+table{
+	margin: auto;
+	padding-bottom: 50px;
+}
+table td{
+	padding: 7px;
+}
+button{
+	width: 100px;
+	font-family: comic sans ms;
+	height: 30px;
+	background-color: #FFDAB9;
+	border-radius: 5px;
+	border-width: 2px;
+	border-color: darkblue;
+	color: darkblue;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+button:hover {
+	background-color: #FFFFFF;
+}
+button:active{
+  background-color: #FFFF00;
+  box-shadow: 0 9px #808080;
+  transform: translateX(7px);
+}
